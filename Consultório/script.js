@@ -47,7 +47,7 @@ frm.btUrgencia.addEventListener("click", () => {
 frm.btAtender.addEventListener("click", () => {
     //se o tamanho da array = 0
 
-    if (pacientes.length = 0) {
+    if (pacientes.length == 0) {
         alert("Não há pacientes na fila de espera!")
         frm.inPaciente.focus()
         return
